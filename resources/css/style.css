@@ -176,13 +176,6 @@ input[type=submit] {
 
 /* ------ NAVIGATION BAR ----------*/
 
-.logo {
-  height: 100px;
-  width: auto;
-  float: left;
-  margin-top: 20px;
-}
-
 .main-nav {
   float: right;
   list-style: none;
@@ -206,7 +199,7 @@ input[type=submit] {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #B7B5B5;
 
 }
 
@@ -223,7 +216,7 @@ input[type=submit] {
   }
 
   .sticky .main-nav {
-    margin-top: 18px;
+    margin: 18px;
   }
 
   .sticky .main-nav li a {
