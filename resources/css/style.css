@@ -41,7 +41,11 @@ section {
 
 /* ---------- HEADER --------- */
 header {
+<<<<<<< HEAD
   background-image: linear-gradient(rgba(0, 0 ,0, .7), rgba(0, 0 ,0, .7)), url(img/starbackground.jpg);
+=======
+  background-image: linear-gradient(rgba(0, 0 ,0, .7), rgba(0, 0 ,0, .7)), url(img/hero-min.jpg);
+>>>>>>> e89c8c9b23b7212f1708a556a32127aba26bdb6f
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -183,6 +187,17 @@ input[type=submit] {
   margin-top: 20px;
 }
 
+<<<<<<< HEAD
+=======
+.logo-black {
+  display: none;
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
+}
+
+>>>>>>> e89c8c9b23b7212f1708a556a32127aba26bdb6f
 .main-nav {
   float: right;
   list-style: none;
