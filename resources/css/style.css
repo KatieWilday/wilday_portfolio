@@ -231,11 +231,6 @@ input[type=submit] {
     color: #555;
   }
 
-  .sticky .logo { display: none; }
-  .sticky .logo-black { display: block; }
-
-
-
 /* ----- MOBILE NAVIGATION ----- */
 
 .mobile-nav-icon {
