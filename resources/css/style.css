@@ -136,37 +136,26 @@ input[type=submit] {
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-  background-color: #e67e22;
-  border: 1px solid #e67e22;
+  background-color: #FBAC04;
+  border: 1px solid #FBAC04;
   color: #fff;
   margin-right: 15px;
 
-}
-
-.btn-ghost:link,
-.btn-ghost:visited {
-  border: 1px solid #e67e22;
-  color: #e67e22;
 }
 
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-  background-color: #cf6d17;
+  background-color: #FB9D04;
 }
 
 .btn-full:hover,
 .btn-full:active,
 input[type=submit] {
-  border: 1px solid #cf6d17;
+  border: 1px solid #FB9D04;
 }
 
-.btn-ghost:hover,
-.btn-ghost:active {
-  border: 1px solid #cf6d17;
-  color: #fff;
-}
 
 /* ------- FEATURES ---------- */
 
@@ -244,50 +233,28 @@ input[type=submit] {
   background-color: #EFEFEF;
 }
 
-.steps-box:first-child {
-  text-align: right;
-  padding-right: 3%;
-  margin-top: 30px;
-}
-
-.steps-box:last-child {
-  padding-left: 3%;
-  margin-top: 70px;
-}
-
-
-.works-step {
-  margin-bottom: 50px;
-}
-
-.works-step:last-of-type {
-  margin-bottom: 80px;
-}
-
-.works-step div {
-  color: #e67e22;
-  border: 2px solid #e67e22;
-  display: inline-block;
+.katie-photo {
+  width: 60%;
+  border: solid 2px black;
+  margin-left: 60px;
   border-radius: 50%;
-  height: 55px;
-  width: 55px;
-  text-align: center;
-  padding: 5px;
-  float: left;
-  font-size: 150%;
-  margin-right: 25px;
 }
 
-.btn-app img {
-  height: 50px;
-  width: auto;
-  margin-right: 10px;
+
+/* ---- TECH SECTION ----*/
+
+.section-technical {
+  background-color: #fff;
 }
+
+
 
 
 /* --------- GRAPHIC DESIGN SECTION --------- */
 
-
+.section-graphicdesign {
+  background-color: #EFEFEF;
+}
 
 /* -------- TESTIMONIALS -------- */
 
@@ -327,14 +294,6 @@ cite img {
   margin-right: 10px;
   vertical-align: middle;
 }
-
-
-/* ---- TECH SECTION ----*/
-
-.section-technical {
-  background-color: #EFEFEF;
-}
-
 
 
 /* ----- FORM SECTIONS ---- */
