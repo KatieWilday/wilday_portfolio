@@ -238,43 +238,6 @@ input[type=submit] {
   color: #fff;
 }
 
-/* ------ MEALS SECTION ------ */
-
-.section-photography {
-  padding: 0;
-}
-
-.photography-showcase {
-  list-style: none;
-  width: 100%;
-}
-
-.photography-showcase li {
-  display: block;
-  float: left; /*side by side*/
-  width: 25%; /*becuase there is 4 elements out of 100 */
-}
-
-.photo {
-  width: 100%;
-  margin: 0;
-  overflow: hidden;
-  background-color: #000;
-}
-
-.photo img {
-  opacity: 0.7;
-  width: 100%;
-  height: auto;
-  transform: scale(1.15);
-  transition: transform 0.5s, opacity 0.5s;
-}
-
-.photo img:hover {
-  transform: scale(1.03);
-  opacity: 1;
-}
-
 
 /* ---------- ABOUT SECTION ------- */
 .section-about {
@@ -322,43 +285,8 @@ input[type=submit] {
 }
 
 
-/* --------- CURRENT CITY SECTION --------- */
+/* --------- GRAPHIC DESIGN SECTION --------- */
 
-.box img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 15px;
-}
-
-.city-feature {
-  margin-bottom: 5px;
-}
-
-.city-feature a {
-  text-decoration: none;
-  color: #e67e22;
-  border-bottom: 1px solid #e67e22;
-  padding-bottom: 1px;
-}
-
-.city-feature a:hover {
-  color: #555;
-  border-bottom: 1px solid transparent;
-  transition: border-bottom 0.2s, color 0.2s;
-}
-
-.icon-small {
-  display: inline-block;
-  width: 30px;
-  text-align: center;
-  color: #e67e22;
-  font-size: 120%;
-  /* Secrets to align text and icons*/
-  line-height: 120%;
-  vertical-align: middle;
-  margin-top: -4px;
-  margin-right: 8px;
-}
 
 
 /* -------- TESTIMONIALS -------- */
@@ -401,56 +329,10 @@ cite img {
 }
 
 
-/* ---- PLANS SECTION ----*/
+/* ---- TECH SECTION ----*/
 
-.section-plans {
+.section-technical {
   background-color: #EFEFEF;
-}
-
-.plan-box {
-  background-color: #fff;
-  border-radius: 5px;
-  width: 90%;
-  margin-left: 5%;
-  box-shadow: 0 2px 2px #e0e0e0;
-}
-
-.plan-box div:first-child {
-  background-color: #f8f8f8;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-.plan-box div:last-child {
-  text-align: center;
-  border: 0;
-}
-
-.plan-box div {
-  padding: 15px;
-  border-bottom: 1px solid #e8e8e8;
-}
-
-.plan-price {
-  font-size: 300%;
-  margin-bottom: 10px;
-  color: #e67e22;
-}
-
-.plan-price span {
-  font-size: 30%;
-}
-
-.plan-price-meal {
-  font-size: 80%;
-}
-
-.plan-box ul {
-  list-style: none;
-}
-
-plan-box ul li {
-  padding: 5px 0;
 }
 
 
@@ -491,7 +373,7 @@ footer {
   background-color: #565656;
   color: #888;
   padding: 40px;
-  font-size: 80%;
+  font-size: 100%;
 }
 
 .footer-nav {
@@ -532,7 +414,7 @@ footer {
 
 .social-links li a:link,
 .social-links li a:visited {
-  font-size: 150%;
+  font-size: 200%;
 }
 
 .ion-social-facebook,
