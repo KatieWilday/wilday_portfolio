@@ -248,7 +248,7 @@ input[type=submit]:active {
   color: #E0E1E2;
 }
 
-.row a { 
+.row a {
   color: #E0E1E2;
   font-size: 16px;
 }
@@ -356,7 +356,6 @@ footer {
 
 .ion-social-facebook,
 .ion-social-twitter,
-.ion-social-googleplus,
 .ion-social-instagram {
   transition: color 0.2s;
 }
@@ -377,7 +376,7 @@ footer {
 footer p {
   color: #888;
   font-size: 90%;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
 }
 
