@@ -100,7 +100,6 @@ h2:after { /* will appear after element */
 h3 {
   font-size: 110%;
   margin-bottom: 15px;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -122,10 +121,11 @@ h3 {
 .btn:link,
 .btn:visited,
 input[type=submit] {
-  background-color: #D7D1A7;
+  background-color: transparent;
   border: none;
-  color: black;
+  color: white;
   padding: 10px 30px;
+  border: 1px solid white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -133,14 +133,7 @@ input[type=submit] {
   transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-.btn-full:link,
-.btn-full:visited, {
-  background-color: transparent;
-  border: 1px solid white;
-  color: white;
-  margin-right: 15px;
 
-}
 
 .btn:hover,
 .btn:active,
@@ -148,20 +141,9 @@ input[type=submit]:hover,
 input[type=submit]:active {
   background-color: #fff;
   color: black;
+  border: 1px solid black
 }
 
-.btn-full:hover,
-.btn-full:active,
-{
-  border: 1px solid black;
-}
-
-input[type=submit] {
-  background-color: #06DCD8;
-  border: 1px solid black;
-  color: white;
-  margin-right: 15px;
-}
 /* ------- FEATURES ---------- */
 
 .section-features .long-copy {
@@ -262,8 +244,13 @@ input[type=submit] {
 /* ---- TECH SECTION ----*/
 
 .section-technical {
-  background-color: #6A6967;
-  color: #fff;
+  background-color: #061C32;
+  color: #E0E1E2;
+}
+
+.row a { 
+  color: #E0E1E2;
+  font-size: 16px;
 }
 
 
@@ -283,49 +270,16 @@ input[type=submit] {
   padding-bottom: 50px;
 }
 
-/* -------- TESTIMONIALS -------- */
-
-.section-testimonials {
-  background-color: #6A6967;
-  color: #fff;
-}
-
-blockquote {
-  padding: 2%;
-  font-style: italic;
-  line-height: 145%;
-  position: relative;
-  margin-top: 40px;
-}
-
-cite {
-  font-size: 90%;
-  margin-top: 25px;
-  display: block;
-}
-
-blockquote:before {
-  content: "\201C";
-  font-size: 350%;
-  display: block;
-  position: absolute;
-  top: -5px;
-  left: -5px;
-}
-
-cite img {
-  height: 70px;
-  border-radius: 50%;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-
 /* ----- FORM SECTIONS ---- */
 
+.section-form {
+  background-color: #061C32;
+  color: #E0E1E2;
+}
+
 .contact-form {
-  width: 60%;
-  margin: 0 auto;
+  width: 80%;
+
 }
 
 input[type=text],
@@ -333,6 +287,7 @@ input[type=email],
 select,
 textarea {
   width: 100%;
+  position: relative;
   padding: 7px;
   border-radius: 3px;
   border: 1px solid #d1d1d0;
@@ -342,12 +297,10 @@ textarea {
   height: 100px;
 }
 
-input[type=checkbox] {
-  margin: 10px 5px 10px 0;
+.btn-submit {
+  float: right;
 }
-
 *:focus {outline:none}
-
 
 
 /* ----- FOOTER ----- */
