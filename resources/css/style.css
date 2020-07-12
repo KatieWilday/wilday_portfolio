@@ -41,11 +41,17 @@ section {
 
 /* ---------- HEADER --------- */
 header {
-  background-image: linear-gradient(rgba(0, 0 ,0, .7), rgba(0, 0 ,0, .7)), url(img/starbackground.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
   background-attachment: fixed;
+}
+
+.video {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index:-1
 }
 
 .hero-text-box {
@@ -174,6 +180,7 @@ input[type=submit] {
   float: right;
   list-style: none;
   margin-top: 55px;
+  top: 0;
 }
 
 .main-nav li {
