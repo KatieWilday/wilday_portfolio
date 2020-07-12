@@ -89,12 +89,12 @@ h2 {
 
 h2:after { /* will appear after element */
   display: block;
-  height: 2px;
-  background-color: #e67e22;
+  height: 4px;
+  background-color: #06DCD8;
   content: " ";
   width: 100px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 h3 {
@@ -118,17 +118,6 @@ h3 {
   line-height: 145%;
 }
 
-/* ----- ICONS ---- */
-
-.icon-big {
-  font-size: 300%;
-  display: block;
-  color: #e67e22;
-  margin-bottom: 10px;
-  /*margin-left: 35%;
-  margin-right: 50%;*/
-}
-
 /* ---------- HEADER BUTTON STYLING ----------- */
 .btn:link,
 .btn:visited,
@@ -145,11 +134,10 @@ input[type=submit] {
 }
 
 .btn-full:link,
-.btn-full:visited,
-input[type=submit] {
-  background-color: #FEDE67;
-  border: 1px solid black;
-  color: black;
+.btn-full:visited, {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
   margin-right: 15px;
 
 }
@@ -159,15 +147,21 @@ input[type=submit] {
 input[type=submit]:hover,
 input[type=submit]:active {
   background-color: #fff;
+  color: black;
 }
 
 .btn-full:hover,
 .btn-full:active,
-input[type=submit] {
+{
   border: 1px solid black;
 }
 
-
+input[type=submit] {
+  background-color: #06DCD8;
+  border: 1px solid black;
+  color: white;
+  margin-right: 15px;
+}
 /* ------- FEATURES ---------- */
 
 .section-features .long-copy {
@@ -252,7 +246,7 @@ input[type=submit] {
   border-radius: 50%;
 }
 
-/* ---- FITNESS SECTION
+/* ---- FITNESS SECTION ----*/
 
 .section-fitness {
   background-color: #EFEFEF;
@@ -264,7 +258,6 @@ input[type=submit] {
   height: auto;
 }
 
- ----*/
 
 /* ---- TECH SECTION ----*/
 
@@ -272,8 +265,6 @@ input[type=submit] {
   background-color: #6A6967;
   color: #fff;
 }
-
-
 
 
 /* --------- GRAPHIC DESIGN SECTION --------- */
