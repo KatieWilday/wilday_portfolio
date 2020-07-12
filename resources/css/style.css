@@ -56,6 +56,7 @@ header {
   transform: translate(-50%, -50%);
 }
 
+
 h1, h2, h3 {
   font-weight: 300;
   /*text-transform: uppercase; */
@@ -126,20 +127,23 @@ h3 {
 .btn:link,
 .btn:visited,
 input[type=submit] {
-  display: inline-block;
+  background-color: #D7D1A7;
+  border: none;
+  color: black;
   padding: 10px 30px;
-  font-weight: 300px;
+  text-align: center;
   text-decoration: none;
-  border-radius: 200px;
+  display: inline-block;
+  font-size: 18px;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-  background-color: #FBAC04;
-  border: 1px solid #FBAC04;
-  color: #fff;
+  background-color: #FEDE67;
+  border: 1px solid black;
+  color: black;
   margin-right: 15px;
 
 }
@@ -148,13 +152,13 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-  background-color: #FB9D04;
+  background-color: #fff;
 }
 
 .btn-full:hover,
 .btn-full:active,
 input[type=submit] {
-  border: 1px solid #FB9D04;
+  border: 1px solid black;
 }
 
 
@@ -167,7 +171,7 @@ input[type=submit] {
 /* ------ NAVIGATION BAR ----------*/
 
 .main-nav {
-  float: none;
+  float: right;
   list-style: none;
   margin-top: 55px;
 }
