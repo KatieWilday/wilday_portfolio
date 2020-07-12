@@ -94,6 +94,7 @@ h3 {
   font-size: 110%;
   margin-bottom: 15px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 /*-------- PARAGRAPH ------------*/
@@ -248,8 +249,11 @@ input[type=submit] {
 }
 
 .fitness img {
-  width: 90%;
+  width: 80%;
+  height: auto;
 }
+
+
 
 /* ---- TECH SECTION ----*/
 
@@ -266,16 +270,14 @@ input[type=submit] {
   background-color: #EFEFEF;
 }
 
-.sunyit-photo,
-.volleyball-photo,
-.bookcover {
+.section-graphicdesign img {
   width: 100%;
   border: solid 2px black;
-
 }
 
 .row p {
   font-size: 70%;
+  padding-bottom: 50px;
 }
 
 /* -------- TESTIMONIALS -------- */

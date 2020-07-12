@@ -24,20 +24,20 @@
       <nav>
         <div class="row">
           <ul class="main-nav js--main-nav">
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About Me</a></li>
-            <li><a href="#tech">Technical Projects</a></li>
-            <li><a href="#graphic-design">Graphic Design</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#tech">Projects</a></li>
+            <li><a href="#fitness">Fitness</a></li>
+            <li><a href="https://medium.com/@wildayk" target="_blank">Blog</a></li>
             <li><a href="#contact-form">Contact</a></li>
           </ul>
-          <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
 
         </div>
       </nav>
 
-      <div class="hero-text-box js--section-features">
+      <div class="hero-text-box js--section-features" id="home">
         <h1>Hello, I'm Katie Wilday<br> I am a frontend web developer.</h1>
-        <a class="btn btn-full js--scroll-to-plans" href="#">View My Work</a>
+        <a class="btn btn-full js--scroll-to-plans" href="#tech">View My Work</a>
       </div>
 
     </header>
@@ -59,14 +59,14 @@
       </div>
     </section>
 
-    <section class="section-fitness js--section-plans" id="tech">
+    <section class="section-fitness js--section-plans" id="fitness">
       <div class="row">
         <h2>Fitness</h2>
       </div>
 
       <div class="row">
         <div class="col span-1-of-2 fitness">
-          <img src="resources/img/synitlogo.jpg" alt="SunyIT logo" class="sunyit-photo">
+          <img src="resources/img/rowing.jpg" alt="Rowing" class="rowing-photo">
           <p>Crossfit Open 2019</p>
         </div>
 
@@ -74,6 +74,18 @@
         <div class="col span-1-of-2">
           Why I love to coach!
         </div>
+      </div>
+
+      <div class="row">
+        <div class="col span-1-of-2">
+          Why I love to coach!
+        </div>
+
+        <div class="col span-1-of-2 fitness">
+          <img src="resources/img/grassroots.jpg" alt="Grassroots" class="grassroots-photo">
+          <p>Grassroots Fitness Project - Women's Strength</p>
+        </div>
+
 
       </div>
     </section>
@@ -86,7 +98,9 @@
 
       <div class="row">
         <div class="col span-1-of-2">
-          VIDEO OF PROJECT
+          <video width="480" height="400" controls>
+            <source src="resources/img/dicegame.mp4" type="video/mp4">
+          </video>
           <p>Link to GitHub/Demo</p>
         </div>
 
@@ -111,7 +125,7 @@
     </section>
 
 
-
+<!--
     <section class="section-graphicdesign" id="graphic-design">
       <div class="row">
         <h2>Graphic Design</h2>
@@ -123,9 +137,27 @@
           <p>College t-shirt design for breast cancer awareness walk.</p>
         </div>
 
+
         <div class="col span-1-of-3">
-          <img src="resources/img/volleyball.jpg" alt="Volleyball logo" class="volleyball-photo">
-          <p>High School volleyball warm up t-shirt logo.</p>
+          <img src="resources/img/yojimbo.png" alt="Yojimbo logo" class="yojimbo-photo">
+          <p>Indie rock band logo.</p>
+        </div>
+
+        <div class="col span-1-of-3">
+          <img src="resources/img/swinehundt.png" alt="Swinehundt Business Card" class="swinehundt-photo">
+          <p>Business Card for a small local scarf business.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col span-1-of-3">
+          <img src="resources/img/uconn.jpg" alt="uconn" class="uconn">
+          <p>UCONN Women's basketball magazine article.</p>
+        </div>
+
+        <div class="col span-1-of-3">
+          <img src="resources/img/groovefest_brown.jpg" alt="Groovefest" class="groovefest">
+          <p>Flyer for a music festival.</p>
         </div>
 
         <div class="col span-1-of-3">
@@ -133,26 +165,8 @@
           <p>Bookcover project.</p>
         </div>
       </div>
-
-        <div class="row">
-          <div class="col span-1-of-3">
-            <img src="resources/img/synitlogo.jpg" alt="SunyIT logo" class="sunyit-photo">
-            <p>College t-shirt design for breast cancer awareness walk.</p>
-          </div>
-
-          <div class="col span-1-of-3">
-            <img src="resources/img/volleyball.jpg" alt="Volleyball logo" class="volleyball-photo">
-            <p>High School volleyball warm up t-shirt logo.</p>
-          </div>
-
-          <div class="col span-1-of-3">
-            <img src="resources/img/bookcover.png" alt="Bookcover" class="bookcover">
-            <p>Bookcover project.</p>
-          </div>
-        </div>
-
     </section>
-
+-->
 
     <section class="section-testimonials" id="testimonials">
       <div class="row">
@@ -190,15 +204,15 @@
         </div>
       </div>
     </section>
-
-    <section class="section-form">
+-->
+    <section class="section-form" id="contact-form">
       <div class="row">
         <h2>Contact Me</h2>
       </div>
 
 
       <div class="row">
-        <form method="post" action=”mailto:wildayk@gmail.com” class="contact-form" id="contact-form">
+        <form method="post" action=”mailto:wildayk@gmail.com” class="contact-form">
           <div class="row">
             <div class="col span-1-of-3">
               <label>Name</label>
