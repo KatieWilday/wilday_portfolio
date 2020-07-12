@@ -167,7 +167,7 @@ input[type=submit] {
 /* ------ NAVIGATION BAR ----------*/
 
 .main-nav {
-  float: right;
+  float: none;
   list-style: none;
   margin-top: 55px;
 }
@@ -235,17 +235,17 @@ input[type=submit] {
 }
 
 .katie-photo {
-  width: 50%;
+  width: 60%;
   border: solid 2px black;
   margin-left: 60px;
   border-radius: 50%;
 }
 
-/* ---- FITNESS SECTION ----*/
+/* ---- FITNESS SECTION
 
 .section-fitness {
-  background-color: #6A6967;
-  color: #fff;
+  background-color: #EFEFEF;
+
 }
 
 .fitness img {
@@ -253,12 +253,13 @@ input[type=submit] {
   height: auto;
 }
 
-
+ ----*/
 
 /* ---- TECH SECTION ----*/
 
 .section-technical {
-  background-color: #EFEFEF;
+  background-color: #6A6967;
+  color: #fff;
 }
 
 
