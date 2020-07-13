@@ -63,7 +63,7 @@ header {
 }
 
 
-h1, h2, h3 {
+h1, h2 {
   font-weight: 300;
   /*text-transform: uppercase; */
 
@@ -98,9 +98,11 @@ h2:after { /* will appear after element */
 }
 
 h3 {
-  font-size: 110%;
+  font-size: 180%;
   margin-bottom: 15px;
   text-align: center;
+  color: black;
+  font-weight: 400;
 }
 
 /*-------- PARAGRAPH ------------*/
@@ -228,18 +230,6 @@ input[type=submit]:active {
   border-radius: 50%;
 }
 
-/* ---- FITNESS SECTION ----*/
-
-.section-fitness {
-  background-color: #EFEFEF;
-
-}
-
-.fitness img {
-  width: 80%;
-  height: auto;
-}
-
 
 /* ---- TECH SECTION ----*/
 
@@ -253,27 +243,57 @@ input[type=submit]:active {
   font-size: 16px;
 }
 
+/* ---- FITNESS SECTION ----*/
 
-/* --------- GRAPHIC DESIGN SECTION --------- */
-
-.section-graphicdesign {
+.section-fitness {
   background-color: #EFEFEF;
+
 }
 
-.section-graphicdesign img {
-  width: 100%;
+.fitness img {
+  width: 80%;
+  height: auto;
+}
+
+
+/* --------- BLOG SECTION --------- */
+
+.section-blog {
+  background-color: #061C32;
+  color: #E0E1E2;
+}
+
+.section-blog img {
+  width: 90%;
+  height: auto;
   border: solid 2px black;
 }
 
 .row p {
-  font-size: 70%;
-  padding-bottom: 50px;
+  color: #ECEDED; /* light grey */
+  font-size: 80%;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
+.blog link:hover {
+  transition: opacity 0.3s;
+}
+
+.blog-link a {
+  font-size: 110%;
+  color: #ECEDED;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.blog-link a:hover {
+  color: green;
+}
 /* ----- FORM SECTIONS ---- */
 
 .section-form {
-  background-color: #061C32;
+  background-color: #CCCDCD;
   color: #E0E1E2;
 }
 
