@@ -238,10 +238,12 @@ input[type=submit]:active {
   color: #E0E1E2;
 }
 
-.row a {
+.projects a {
   color: #E0E1E2;
   font-size: 16px;
 }
+
+
 
 /* ---- FITNESS SECTION ----*/
 
@@ -264,9 +266,8 @@ input[type=submit]:active {
 }
 
 .section-blog img {
-  width: 90%;
+  width: 530px;
   height: auto;
-  border: solid 2px black;
 }
 
 .row p {
@@ -327,7 +328,7 @@ textarea {
 
 
 footer {
-  background-color: #565656;
+  background-color: #222C2C;
   color: #888;
   padding: 40px;
   font-size: 100%;
