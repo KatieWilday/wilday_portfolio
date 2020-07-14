@@ -78,10 +78,11 @@ $(document).ready(function() {
     offset: '50%'
   });
 
-  $(".js--wp-5").waypoint(function() {
-    $(".js--wp-5").addClass('fadeInLeft');
-  }
-}, { offset: '100%'});
+  $(".js--wp-5").waypoint(function(direction) {
+    $(".js--wp-5").addClass('animated animate_fadeInLeft');
+  }, {
+    offset: '100%'
+  });
 
   //Mobile Navigation
   $('.js--nav-icon').click(function() {

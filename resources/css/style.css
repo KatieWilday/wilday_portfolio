@@ -244,7 +244,7 @@ input[type=submit]:active {
 /* ---------- ABOUT SECTION ------- */
 
 .section-about {
-  background-color: #D3D3D3 /* darker grey */
+  background-color: #EFEFEF /* light grey */
 }
 
 .katie-photo {
@@ -260,74 +260,159 @@ input[type=submit]:active {
   text-align: inherit;
 }
 
-.rectangle1,
-.rectangle2,
-.rectangle3,
-.rectangle4,
-.rectangle5,
-.rectangle6,
-.rectangle7,
-.rectangle8  {
-  height: 30px;
-  width: 90%;
-  background-color: #fff;
-  margin-top: 10px;
-  opacity: .8;
-}
-
 .full-rectangle {
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .rectangle1 {
-  background: linear-gradient(to right, #E03A74 90%, white 0%);
+  background: #E03A74;
+  float: left;
+  height: 30px;
+  width: 93%;
+  margin-top: 10px;
+}
+
+.rectangle-white1 {
+  display: inline-block;
+  background: white;
+  height: 30px;
+  width: 7%;
+  margin-top: 10px;
 }
 
 .rectangle2 {
-  background: linear-gradient(to right, #E03A74 85%, white 0%);
+  background: #E03A74;
+  float: left;
+  height: 30px;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.rectangle-white2 {
+  display: inline-block;
+  background: white;
+  height: 30px;
+  width: 10%;
+  margin-top: 10px;
 }
 
 .rectangle3 {
-  background: linear-gradient(to right, #E03A74 86%, white 0%);
+  background: #E03A74;
+  float: left;
+  height: 30px;
+  width: 83%;
+  margin-top: 10px;
+}
+
+.rectangle-white3 {
+  display: inline-block;
+  background: white;
+  height: 30px;
+  width: 17%;
+  margin-top: 10px;
 }
 
 .rectangle4 {
-  background: linear-gradient(to right, #E03A74 65%, white 0%);
+  background: #E03A74;
+  float: left;
+  height: 30px;
+  width: 70%;
+  margin-top: 10px;
+}
+
+.rectangle-white4 {
+  display: inline-block;
+  background: white;
+  height: 30px;
+  width: 30%;
+  margin-top: 10px;
 }
 
 .rectangle5 {
-  background: linear-gradient(to right, #E03A74 85%, white 0%);
+  background: #E03A74;
+  float: left;
+  height: 30px;
+  width: 75%;
+  margin-top: 10px;
+}
+
+.rectangle-white5 {
+  display: inline-block;
+  background: white;
+  height: 30px;
+  width: 25%;
+  margin-top: 10px;
 }
 
 .rectangle6 {
-  background: linear-gradient(to right, #E03A74 85%, white 0%);
+  background: #E03A74;
+  float: left;
+  height: 30px;
+  width: 55%;
+  margin-top: 10px;
+}
+
+.rectangle-white6 {
+  display: inline-block;
+  background: white;
+  height: 30px;
+  width: 45%;
+  margin-top: 10px;
 }
 
 .rectangle7 {
-  background: linear-gradient(to right, #E03A74 50%, white 0%);
+  background: #E03A74;
+  float: left;
+  height: 30px;
+  width: 95%;
+  margin-top: 10px;
+}
+
+.rectangle-white7 {
+  display: inline-block;
+  background: white;
+  height: 30px;
+  width: 5%;
+  margin-top: 10px;
 }
 
 .rectangle8 {
-  background: linear-gradient(to right, #E03A74 85%, white 0%);
+  background: #E03A74;
+  float: left;
+  height: 30px;
+  width: 75%;
+  margin-top: 10px;
 }
 
-.rectanlge-text {
+.rectangle-white8 {
+  display: inline-block;
+  background: white;
+  height: 30px;
+  width: 25%;
+  margin-top: 10px;
+}
+
+.rectangle-text {
   font-size: 80%;
   color: white;
   padding-left: 5px;
   padding-top: 5px;
 }
 
-.percentage {
+.percentage-text {
   display: inline;
-  color: black;
+  float: right;
+  color: grey;
   font-size: 80%;
+  padding-top: 5px;
+  padding-right: 5px;
 }
+
 /* ---- TECH SECTION ----*/
 
 .section-technical {
-  background-color: #D3D3D3; /* light grey */
-  color: #E0E1E2;
+  background-color: #D3D3D3; /* dark grey */
+  color: #fff;
 }
 
 .projects a {
@@ -335,11 +420,14 @@ input[type=submit]:active {
   font-size: 16px;
 }
 
+.projects img {
+  box-shadow: 0 2px 2px #9B9A9A;
+}
 
 /* --------- BLOG SECTION --------- */
 
 .section-blog {
-  background-color: #EFEFEF; /* dark grey */
+  background-color: #EFEFEF; /* light grey */
   color: black;
 }
 
