@@ -445,14 +445,13 @@ img {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: ;
   right: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: transparent;
-
 }
 
 .project-container:hover .overlay {
@@ -460,7 +459,7 @@ img {
 }
 
 .project-container:hover img {
-  opacity: .7;
+  opacity: .5;
 }
 
 .text,
@@ -477,7 +476,23 @@ img {
   transform: translate(-50%, -50%);
   text-align: center;
   text-decoration: none;
-  border: solid 2px black;
+  border: solid 1px black;
+}
+
+.text2 {
+  color: white;
+  background-color: #dc353d;
+  padding: 10px;
+  font-size: 20px;
+  position: fixed;
+  top: 70%;
+  left: 70%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px black;
 }
 
 /* --------- BLOG SECTION --------- */
