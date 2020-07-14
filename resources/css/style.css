@@ -272,6 +272,7 @@ input[type=submit]:active {
   width: 90%;
   background-color: #fff;
   margin-top: 10px;
+  opacity: .8;
 }
 
 .full-rectangle {
@@ -310,7 +311,7 @@ input[type=submit]:active {
   background: linear-gradient(to right, #E03A74 85%, white 0%);
 }
 
-.full-rectangle .rectanlge-text {
+.rectanlge-text {
   font-size: 80%;
   color: white;
   padding-left: 5px;
@@ -318,8 +319,7 @@ input[type=submit]:active {
 }
 
 .percentage {
-  display: inline-block;
-  float: right;
+  display: inline;
   color: black;
   font-size: 80%;
 }
@@ -343,12 +343,16 @@ input[type=submit]:active {
   color: black;
 }
 
+.blog-box {
+  padding-bottom: 60px;
+}
+
 .blog-box:hover {
   opacity: .6;
 }
 
 .blog-box:hover a{
-  opacity: .8;
+  /*opacity: .8;*/
   color: #E03A74;
 }
 
