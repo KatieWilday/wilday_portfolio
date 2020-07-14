@@ -90,7 +90,7 @@ h2 {
 h2:after { /* will appear after element */
   display: block;
   height: 4px;
-  background-color: #06DCD8;
+  background-color: #FEFB5A;
   content: " ";
   width: 100px;
   margin: 0 auto;
@@ -141,7 +141,7 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-  background-color: #fff;
+  background-color: #FEFB5A;
   color: black;
   border: 1px solid black
 }
@@ -178,7 +178,7 @@ input[type=submit]:active {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-  border-bottom: 2px solid #B7B5B5;
+  border-bottom: 2px solid #FEFB5A;
 
 }
 
@@ -189,7 +189,7 @@ input[type=submit]:active {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.98);
+    background-color: rgba(5, 16, 33, 0.98);
     box-shadow: 0 2px 2px #e3e3e3;
     z-index: 9999; /* always on top */
   }
@@ -200,7 +200,7 @@ input[type=submit]:active {
 
   .sticky .main-nav li a {
     padding: 16px 0;
-    color: #555;
+    color: #fff;
   }
 
 /* ----- MOBILE NAVIGATION ----- */
