@@ -63,7 +63,7 @@ header {
 }
 
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: 300;
   /*text-transform: uppercase; */
 
@@ -82,7 +82,7 @@ h2 {
   font-size: 180%;
   word-spacing: 2px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -90,19 +90,28 @@ h2 {
 h2:after { /* will appear after element */
   display: block;
   height: 4px;
-  background-color: #FEFB5A;
+  background-color: #E03A74; /* pink */
   content: " ";
   width: 100px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 h3 {
-  font-size: 180%;
+  font-size: 100%;
   margin-bottom: 15px;
+  text-transform: uppercase;
   text-align: center;
-  color: black;
-  font-weight: 400;
+}
+
+h4:after { /* will appear after element */
+  display: block;
+  height: 2px;
+  background-color: #E03A74; /* pink */
+  content: " ";
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /*-------- PARAGRAPH ------------*/
@@ -141,7 +150,7 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-  background-color: #FEFB5A;
+  background-color: #E03A74; /* pink */
   color: black;
   border: 1px solid black
 }
@@ -178,7 +187,8 @@ input[type=submit]:active {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-  border-bottom: 2px solid #FEFB5A;
+  color: #E03A74;
+  border-bottom: 2px solid #E03A74; /* pink */
 
 }
 
@@ -189,8 +199,8 @@ input[type=submit]:active {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(5, 16, 33, 0.98);
-    box-shadow: 0 2px 2px #e3e3e3;
+    background-color: rgba(5, 16, 33, 0.90);
+    box-shadow: 0 2px 2px #E03A74;
     z-index: 9999; /* always on top */
   }
 
@@ -199,8 +209,11 @@ input[type=submit]:active {
   }
 
   .sticky .main-nav li a {
-    padding: 16px 0;
     color: #fff;
+  }
+
+  .sticky .main-nav li a:hover {
+    color: #E03A74;
   }
 
 /* ----- MOBILE NAVIGATION ----- */
@@ -217,10 +230,20 @@ input[type=submit]:active {
   color: #fff;
 }
 
+/* ----- ICONS ---- */
+
+.icon-big {
+  font-size: 300%;
+  display: block;
+  color: #E03A74; /* pink */
+  margin-bottom: 50px;
+  margin-left: 35%;
+  margin-right: 50%;
+}
 
 /* ---------- ABOUT SECTION ------- */
 .section-about {
-  background-color: #EFEFEF;
+  background-color: #D3D3D3 /* white */
 }
 
 .katie-photo {
@@ -234,7 +257,7 @@ input[type=submit]:active {
 /* ---- TECH SECTION ----*/
 
 .section-technical {
-  background-color: #061C32;
+  background-color: #D3D3D3; /* light grey */
   color: #E0E1E2;
 }
 
@@ -244,11 +267,44 @@ input[type=submit]:active {
 }
 
 
+/* --------- BLOG SECTION --------- */
+
+.section-blog {
+  background-color: #EFEFEF; /* dark grey */
+  color: black;
+}
+
+.blog-box:hover {
+  opacity: .5;
+}
+
+.box img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.blog-feature {
+  margin-bottom: 5px;
+}
+
+.blog-feature a {
+  text-decoration: none;
+  color: #E03A74; /* pink */
+  border-bottom: 1px solid #E03A74;
+  padding-bottom: 1px;
+}
+
+.blog-feature a:hover {
+  color: #555;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s, color 0.2s;
+}
 
 /* ---- FITNESS SECTION ----*/
 
 .section-fitness {
-  background-color: #EFEFEF;
+  background-color: #EFEFEF; /* light grey */
 
 }
 
@@ -257,49 +313,15 @@ input[type=submit]:active {
   height: auto;
 }
 
-
-/* --------- BLOG SECTION --------- */
-
-.section-blog {
-  background-color: #061C32;
-  color: #E0E1E2;
-}
-
-.section-blog img {
-  width: 530px;
-  height: auto;
-}
-
-.row p {
-  color: #ECEDED; /* light grey */
-  font-size: 80%;
-  padding-bottom: 30px;
-  padding-top: 20px;
-}
-
-.blog link:hover {
-  transition: opacity 0.3s;
-}
-
-.blog-link a {
-  font-size: 110%;
-  color: #ECEDED;
-  text-decoration: none;
-  margin-bottom: 20px;
-}
-
-.blog-link a:hover {
-  color: green;
-}
 /* ----- FORM SECTIONS ---- */
 
 .section-form {
-  background-color: #CCCDCD;
+  background-color: #D3D3D3; /* darker grey */
   color: #E0E1E2;
 }
 
 .contact-form {
-  width: 80%;
+  width: 73%;
 
 }
 
@@ -328,7 +350,7 @@ textarea {
 
 
 footer {
-  background-color: #222C2C;
+  background-color: #2C2D2F; /* dark grey */
   color: #888;
   padding: 40px;
   font-size: 100%;
