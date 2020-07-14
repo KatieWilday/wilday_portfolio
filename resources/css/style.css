@@ -89,7 +89,7 @@ h2 {
 h2:after { /* will appear after element */
   display: block;
   height: 4px;
-  background-color: #E03A74; /* pink */
+  background-color: #dc353d; /* astronaut pink */
   content: " ";
   width: 100px;
   margin: 0 auto;
@@ -105,7 +105,7 @@ h3 {
 h4:after { /* will appear after element */
   display: block;
   height: 2px;
-  background-color: #E03A74; /* pink */
+  background-color: #dc353d; /* astronaut pink */
   content: " ";
   width: 100px;
   margin-top: 20px;
@@ -146,7 +146,7 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-  background-color: #E03A74; /* pink */
+  background-color: #dc353d; /* astronaut pink */
   color: black;
   border: 1px solid black;
 }
@@ -183,8 +183,8 @@ input[type=submit]:active {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-  color: #E03A74;
-  border-bottom: 2px solid #E03A74; /* pink */
+  color: #dc353d;
+  border-bottom: 2px solid #dc353d; /* astronaut pink */
 
 }
 
@@ -196,7 +196,7 @@ input[type=submit]:active {
     left: 0;
     width: 100%;
     background-color: rgba(5, 16, 33, 0.90);
-    box-shadow: 0 2px 2px #E03A74;
+    box-shadow: 0 2px 2px #dc353d;
     z-index: 9999; /* always on top */
   }
 
@@ -209,7 +209,7 @@ input[type=submit]:active {
   }
 
   .sticky .main-nav li a:hover {
-    color: #E03A74;
+    color: #dc353d;
   }
 
 /* ----- MOBILE NAVIGATION ----- */
@@ -231,7 +231,7 @@ input[type=submit]:active {
 .icon-big {
   font-size: 300%;
   display: block;
-  color: #E03A74; /* pink */
+  color: #dc353d; /* astronaut pink */
   margin-bottom: 50px;
   margin-left: 35%;
   margin-right: 50%;
@@ -265,7 +265,7 @@ input[type=submit]:active {
 }
 
 .rectangle1 {
-  background: #E03A74;
+  background: #dc353d;
   float: left;
   height: 30px;
   width: 93%;
@@ -281,7 +281,7 @@ input[type=submit]:active {
 }
 
 .rectangle2 {
-  background: #E03A74;
+  background: #dc353d;
   float: left;
   height: 30px;
   width: 90%;
@@ -297,7 +297,7 @@ input[type=submit]:active {
 }
 
 .rectangle3 {
-  background: #E03A74;
+  background: #dc353d;
   float: left;
   height: 30px;
   width: 83%;
@@ -313,7 +313,7 @@ input[type=submit]:active {
 }
 
 .rectangle4 {
-  background: #E03A74;
+  background: #dc353d;
   float: left;
   height: 30px;
   width: 70%;
@@ -329,7 +329,7 @@ input[type=submit]:active {
 }
 
 .rectangle5 {
-  background: #E03A74;
+  background: #dc353d;
   float: left;
   height: 30px;
   width: 75%;
@@ -345,7 +345,7 @@ input[type=submit]:active {
 }
 
 .rectangle6 {
-  background: #E03A74;
+  background: #dc353d;
   float: left;
   height: 30px;
   width: 55%;
@@ -361,7 +361,7 @@ input[type=submit]:active {
 }
 
 .rectangle7 {
-  background: #E03A74;
+  background: #dc353d;
   float: left;
   height: 30px;
   width: 95%;
@@ -377,7 +377,7 @@ input[type=submit]:active {
 }
 
 .rectangle8 {
-  background: #E03A74;
+  background: #dc353d;
   float: left;
   height: 30px;
   width: 75%;
@@ -412,7 +412,8 @@ input[type=submit]:active {
 
 .section-technical {
   background-color: #D3D3D3; /* dark grey */
-  color: #fff;
+  color: black;
+  font-size: 90%;
 }
 
 .projects a {
@@ -422,7 +423,51 @@ input[type=submit]:active {
 
 .projects img {
   box-shadow: 0 2px 2px #9B9A9A;
+  width: 530px;
+  height: auto;
+  transform: scale(1.03);
+  transition: transform 0.5s, opacity 0.5s;
 }
+
+.project-container img:hover {
+  transform: scale(1.15);
+  opacity: .3;
+}
+
+.project-container {
+  position: relative;
+  padding: 10px;
+}
+
+.project-container p {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  color: black;
+  font-size: 26px;
+}
+
+.project-container:hover p,
+.project-container:hover .middle {
+  opacity: 1;
+  color: black;
+  font-size: 26px;
+  padding-top: 70px;
+  padding-left: 40px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+
 
 /* --------- BLOG SECTION --------- */
 
@@ -435,19 +480,21 @@ input[type=submit]:active {
   padding-bottom: 60px;
 }
 
-.blog-box:hover {
-  opacity: .6;
-}
-
-.blog-box:hover a{
-  /*opacity: .8;*/
-  color: #E03A74;
+.blog-box:hover a {
+  color: #dc353d;
 }
 
 .box img {
   width: 100%;
   height: 200px;
   margin-bottom: 15px;
+  transform: scale(1.03);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.box img:hover {
+  transform: scale(1.15);
+  opacity: 1;
 }
 
 .blog-feature {
@@ -513,7 +560,7 @@ footer {
   background-color: #2C2D2F; /* dark grey */
   color: #888;
   padding: 40px;
-  font-size: 100%;
+  font-size: 90%;
 }
 
 .footer h3 {
@@ -558,7 +605,7 @@ footer {
 
 .social-links li a:link,
 .social-links li a:visited {
-  font-size: 200%;
+  font-size: 130%;
 }
 
 .ion-social-facebook,
@@ -580,6 +627,7 @@ footer {
 .ion-social-instagram:hover {
   color: #517fa4;
 }
+
 footer p {
   color: #888;
   font-size: 90%;
