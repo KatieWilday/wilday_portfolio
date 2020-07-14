@@ -78,6 +78,12 @@ $(document).ready(function() {
     offset: '50%'
   });
 
+  $('.js--wp-5').waypoint(function(direction) {
+    $('.js--wp-5').addClass('animated animate__fadInLeft');
+  } , {
+    offset: '50%'
+  });
+
   //Mobile Navigation
   $('.js--nav-icon').click(function() {
     var nav = $('.js--main-nav');
