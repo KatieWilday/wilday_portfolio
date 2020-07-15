@@ -115,9 +115,7 @@ h4:after { /* will appear after element */
 .name {
   color: #dc353d;
 }
-.animate__animated.animate__bounce {
-  animation-duration: 2s;
-}
+
 
 /*-------- PARAGRAPH ------------*/
 

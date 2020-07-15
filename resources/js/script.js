@@ -67,13 +67,13 @@ $(document).ready(function() {
   });
 
   $('.js--wp-3').waypoint(function(direction) {
-    $('.js--wp-3').addClass('animated animate__fadeIn');
+    $('.js--wp-3').addClass('animated animate__bounceInRight');
   } , {
     offset: '50%'
   });
 
   $('.js--wp-4').waypoint(function(direction) {
-    $('.js--wp-4').addClass('animated animate__pulse');
+    $('.js--wp-4').addClass('animated animate__heartBeat');
   } , {
     offset: '50%'
   });
