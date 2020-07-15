@@ -67,21 +67,15 @@ $(document).ready(function() {
   });
 
   $('.js--wp-3').waypoint(function(direction) {
-    $('.js--wp-3').addClass('animated fadeIn');
+    $('.js--wp-3').addClass('animated animate__fadeIn');
   } , {
     offset: '50%'
   });
 
   $('.js--wp-4').waypoint(function(direction) {
-    $('.js--wp-4').addClass('animated animate__heartBeat');
+    $('.js--wp-4').addClass('animated animate__pulse');
   } , {
     offset: '50%'
-  });
-
-  $(".js--wp-5").waypoint(function(direction) {
-    $(".js--wp-5").addClass('animated animate_fadeInLeft');
-  }, {
-    offset: '100%'
   });
 
   //Mobile Navigation

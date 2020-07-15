@@ -8,7 +8,7 @@
 
 html,
 body {
-  color: #555;
+  color: #545454;
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -114,6 +114,9 @@ h4:after { /* will appear after element */
 
 .name {
   color: #dc353d;
+}
+.animate__animated.animate__bounce {
+  animation-duration: 2s;
 }
 
 /*-------- PARAGRAPH ------------*/
@@ -285,7 +288,7 @@ input[type=submit]:active {
   background: #dc353d;
   float: left;
   height: 30px;
-  width: 93%;
+  width: 90%;
   margin-top: 10px;
 }
 
@@ -293,7 +296,7 @@ input[type=submit]:active {
   display: inline-block;
   background: white;
   height: 30px;
-  width: 7%;
+  width: 10%;
   margin-top: 10px;
 }
 
@@ -317,7 +320,7 @@ input[type=submit]:active {
   background: #dc353d;
   float: left;
   height: 30px;
-  width: 83%;
+  width: 85%;
   margin-top: 10px;
 }
 
@@ -325,7 +328,7 @@ input[type=submit]:active {
   display: inline-block;
   background: white;
   height: 30px;
-  width: 17%;
+  width: 15%;
   margin-top: 10px;
 }
 
@@ -381,7 +384,7 @@ input[type=submit]:active {
   background: #dc353d;
   float: left;
   height: 30px;
-  width: 91%;
+  width: 90%;
   margin-top: 10px;
 }
 
@@ -389,7 +392,7 @@ input[type=submit]:active {
   display: inline-block;
   background: white;
   height: 30px;
-  width: 9%;
+  width: 10%;
   margin-top: 10px;
 }
 
@@ -410,6 +413,7 @@ input[type=submit]:active {
 }
 
 .rectangle-text {
+  float: left;
   font-size: 80%;
   color: white;
   padding-left: 5px;
@@ -428,8 +432,8 @@ input[type=submit]:active {
 /* ---- TECH SECTION ----*/
 
 .section-technical {
-  background-color: #D3D3D3; /* dark grey */
-  color: black;
+  background-color: #8A8A8A; /* dark grey */
+  color: #EFEFEF;
   font-size: 90%;
 }
 
@@ -452,17 +456,17 @@ img {
   box-shadow: 0 2px 2px #9B9A9A;
   width: 530px;
   height: auto;
-  opacity: .7;
+  opacity: .8;
   margin-bottom: 50px;
 }
 
 .overlay {
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: ;
   right: 0;
-  height: 100%;
+  height: auto;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
@@ -482,16 +486,21 @@ img {
   position: absolute;
   top: 92%;
   left: 50%;
-  background-color: #dc353d; /* astronaut pink */
-  color: black;
-  border: 1px solid black;
-  padding: 10px;
+  background-color: transparent; /* #dc353d;  astronaut pink */
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 30px;
   text-align: center;
   text-decoration: none;
   font-size: 18px;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
   transform: translate(-50%, -50%);
+}
 
+.text a:hover {
+  background-color: #dc353d; /* astronaut pink */
+  color: black;
+  border: 1px solid black;
 }
 
 
@@ -499,7 +508,6 @@ img {
 
 .section-blog {
   background-color: #EFEFEF; /* light grey */
-  color: black;
 }
 
 .blog-box {
@@ -549,14 +557,13 @@ img {
 /* ----- FORM SECTIONS ---- */
 
 .section-form {
-  background-color: #D3D3D3; /* darker grey */
-  color: black;
+  background-color: #8A8A8A; /* darker grey */
+  color: #EFEFEF;
   text-align: center;
 }
 
 .contact-form {
   width: 75%;
-
 }
 
 input[type=text],
@@ -567,7 +574,7 @@ textarea {
   position: relative;
   padding: 7px;
   border-radius: 3px;
-  border: 1px solid #d1d1d0;
+  border: 1px solid #888686;
 }
 
 textarea {
@@ -585,7 +592,6 @@ textarea {
 
 footer {
   background-color: #2C2D2F; /* dark grey */
-  color: #888;
   padding: 40px;
   font-size: 90%;
 }
@@ -620,14 +626,14 @@ footer {
 .social-links li a:link,
 .social-links li a:visited {
   text-decoration: none;
+  color: #D7D6D6;
   border: 0;
-  color: #888;
   transition: color 0.2s;
 }
 
 .footer-nav li a:hover,
 .footer-nav li a:active {
-  color: white;
+  color: #dc353d;
 }
 
 .social-links li a:link,
@@ -668,14 +674,15 @@ footer p {
 .js--wp-1,
 .js--wp-2,
 .js--wp-3,
-.js--wp-5 {
+.js--wp-4 {
   opacity: 0;
+
 }
 
 .js--wp-1.animated,
 .js--wp-2.animated,
 .js--wp-3.animated,
-.js--wp-5.animated {
+.js--wp-4.animated {
   opacity: 1;
   transition: 1.5s;
 }
