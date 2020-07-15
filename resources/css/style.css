@@ -152,8 +152,8 @@ input[type=submit] {
 input[type=submit]:hover,
 input[type=submit]:active {
   background-color: #dc353d; /* astronaut pink */
-  color: black;
-  border: 1px solid black;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 /* ------- FEATURES ---------- */
@@ -258,28 +258,37 @@ input[type=submit]:active {
 
 .katie-photo {
   opacity: 1;
-  width: 60%;
-  border: solid 2px black;
+  width: 60%; /*#323232*/
+  border: solid 2px #323232;
   margin-left: 60px;
   margin-top: 40px;
-  border-radius: 10%;
 }
 
 .characteristics {
   text-align: right;
   font-size: 100%;
   width: 100%;
-  opacity: .7;
+}
+
+.who {
+  font-size: 120%;
+  font-weight: bolder;
+}
+
+.to-contact {
+  color:#dc353d;
+  text-decoration: none;
 }
 
 .about-text p {
-  margin-top: 40px;
+  margin-top: 10px;
   text-align: center;
   width: 80%;
+  opacity: 1;
 }
 
 .full-rectangle {
-  margin-top: 70px;
+  margin-top: 150px;
 }
 
 .rectangle1 {
@@ -414,8 +423,11 @@ input[type=submit]:active {
   float: left;
   font-size: 80%;
   color: white;
-  padding-left: 5px;
-  padding-top: 5px;
+  padding: 5px;
+  padding-right: 10px;
+  padding-bottom: 7px;
+  background-color: #df7e7c;
+  opacity: .9;
 }
 
 .percentage-text {
@@ -451,11 +463,12 @@ input[type=submit]:active {
 
 img {
   display: block;
-  box-shadow: 0 2px 2px #9B9A9A;
+  box-shadow: 0 2px 2px #323232;
   width: 530px;
   height: auto;
   opacity: .8;
   margin-bottom: 30px;
+  border: solid 1px #fff;
 }
 
 .overlay {
@@ -496,8 +509,8 @@ img {
 
 .text a:hover {
   background-color: #dc353d; /* astronaut pink */
-  color: black;
-  border: 1px solid black;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 
@@ -579,7 +592,7 @@ textarea {
 }
 
 .btn-submit {
-  float: right;
+  float: center;
 }
 *:focus {outline:none}
 
