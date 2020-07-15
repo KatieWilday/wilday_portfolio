@@ -78,6 +78,18 @@ $(document).ready(function() {
     offset: '50%'
   });
 
+  $('.js--wp-5').waypoint(function(direction) {
+    $('.js--wp-5').addClass('animated animate__heartBeat');
+  } , {
+    offset: '70%'
+  });
+
+  $('.js--wp-6').waypoint(function(direction) {
+    $('.js--wp-6').addClass('animated animate__heartBeat');
+  } , {
+    offset: '50%'
+  });
+
   //Mobile Navigation
   $('.js--nav-icon').click(function() {
     var nav = $('.js--main-nav');

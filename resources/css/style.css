@@ -98,6 +98,7 @@ h2:after { /* will appear after element */
 
 h3 {
   font-size: 120%;
+  color: black;
   margin-bottom: 18px;
   font-weight: bolder;
 }
@@ -108,7 +109,7 @@ h4:after { /* will appear after element */
   background-color: #dc353d; /* astronaut pink */
   content: " ";
   width: 100px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -200,7 +201,7 @@ input[type=submit]:active {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(5, 16, 33, 0.90);
+    background-color: rgba(4,17,32,1);
     box-shadow: 0 2px 2px #dc353d;
     z-index: 9999; /* always on top */
   }
@@ -266,13 +267,13 @@ input[type=submit]:active {
 
 .characteristics {
   text-align: right;
-  font-size: 100%;
+  font-size: 90%;
   width: 100%;
 }
 
 .who {
   font-size: 120%;
-  font-weight: bolder;
+  color: black;
 }
 
 .to-contact {
@@ -288,7 +289,7 @@ input[type=submit]:active {
 }
 
 .full-rectangle {
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
 .rectangle1 {
@@ -461,6 +462,18 @@ input[type=submit]:active {
   padding: 10px;
 }
 
+.project-container p {
+  padding-bottom: 3px;
+  font-size: 90%;
+  opacity: 0;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 130%;
+  opacity: 0;
+}
+
 img {
   display: block;
   box-shadow: 0 2px 2px #323232;
@@ -468,7 +481,6 @@ img {
   height: auto;
   opacity: .8;
   margin-bottom: 30px;
-  border: solid 1px #fff;
 }
 
 .overlay {
@@ -487,8 +499,9 @@ img {
   opacity: 1;
 }
 
-.project-container:hover img {
-  background-color: black;
+.project-container:hover img,
+.project-container:hover .app-title,
+.project-container:hover p {
   opacity: 1;
 }
 
@@ -523,45 +536,39 @@ img {
 .blog-box {
   padding-bottom: 60px;
   transform: scale(1.03);
-  transition: transform 0.5s, opacity 0.5s;
-
+  transition: transform 0.5s;
 }
 
-.box img {
+.blog-box img {
   width: 100%;
   height: 200px;
-  margin-bottom: 15px;
-  background-color: black;
   opacity: .9;
-}
-
-.blog-box:hover a,
-.blog-box:hover  {
-  color: #dc353d;
-  transform: scale(1.15);
-  opacity: 1;
-}
-
-.blog-feature {
   margin-bottom: 5px;
 }
 
+.blog-box:hover a {
+  color: #dc353d;
+  transform: scale(1.10);
+  opacity: 1;
+}
+
+.blog-box:hover {
+  transform: scale(1.10);
+  opacity: 1;
+}
+
 .blog-feature a {
+  font-size: 80%;
   text-decoration: none;
   color: black;
-  padding-bottom: 1px;
 }
 
-/* ---- FITNESS SECTION ----*/
-
-.section-fitness {
-  background-color: #EFEFEF; /* light grey */
-
+.blog-feature h4 {
+  font-size: 80%;
 }
 
-.fitness img {
-  width: 80%;
-  height: auto;
+.blog-feature p {
+  font-size: 70%;
 }
 
 /* ----- FORM SECTIONS ---- */
@@ -684,7 +691,8 @@ footer p {
 .js--wp-1,
 .js--wp-2,
 .js--wp-3,
-.js--wp-4 {
+.js--wp-4,
+.js--wp-5 {
   opacity: 0;
 
 }
@@ -692,7 +700,8 @@ footer p {
 .js--wp-1.animated,
 .js--wp-2.animated,
 .js--wp-3.animated,
-.js--wp-4.animated {
+.js--wp-4.animated,
+.js--wp-5.animated {
   opacity: 1;
   transition: 1.5s;
 }
