@@ -85,9 +85,9 @@ $(document).ready(function() {
   });
 
   $('.js--wp-6').waypoint(function(direction) {
-    $('.js--wp-6').addClass('animated animate__heartBeat');
+    $('.js--wp-6').addClass('animated animate__fadeIn');
   } , {
-    offset: '50%'
+    offset: '70%'
   });
 
   //Mobile Navigation
