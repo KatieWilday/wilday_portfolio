@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "transport": "ftp",
+  "uploadOnSave": false,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "ftp.katiewilday.com",
+  "port": "21",
+  "target": "/public_html/portfolio",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "wildayk@katiewilday.com",
+  "password": "Galwaylake15",
+  "watch": []
+}
